@@ -1,0 +1,21 @@
+{
+  "name": "routinedashboard",
+  "version": "1.0.0",
+  "description": "app for personal management",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "javascript",
+    "angularjs",
+    "nodejs",
+    "mean",
+    "dashboard"
+  ],
+  "author": "Paulo Victor",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}
