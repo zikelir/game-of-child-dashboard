@@ -4,7 +4,8 @@
   "description": "app for personal management",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "keywords": [
     "javascript",
@@ -18,5 +19,14 @@
   "dependencies": {
     "body-parser": "^1.15.2",
     "express": "^4.14.0"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zikelir/routineDashboard.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zikelir/routineDashboard/issues"
+  },
+  "homepage": "https://github.com/zikelir/routineDashboard#readme"
 }
