@@ -1,0 +1,56 @@
+/* app css stylesheet */
+body {
+  margin: 0;
+}
+
+.menutop {
+  background-color: red;
+  width: 100%;
+  float: left;
+  position: relative;
+  height: 100px;
+  margin: 0;
+}
+
+.brandicon {
+  position: relative;
+  float: left;
+  margin-top: 38px;
+  margin-left: 3%;
+}
+
+.menutoplinks {
+  position: relative;
+  float: right;
+  margin-top: 38px;
+  margin-right: 3%;
+}
+
+.menutoplinks a {
+  margin-right: 10%;
+  padding-right: 10px;
+}
+
+.menuleft {
+  width: 15%;
+  height: 800px;
+  float: left;
+  position: relative;
+  background-color: black;
+}
+
+.maincontainer {
+  float: left;
+  position: relative;
+  width: 85%;
+  height: 800px;
+  background-color: blue;
+}
+
+.footer {
+  background-color: yellow;
+  height: 100px;
+  width: 100%;
+  float: left;
+  position: relative;
+}
