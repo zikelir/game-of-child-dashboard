@@ -24,6 +24,7 @@ body {
   float: right;
   margin-top: 38px;
   margin-right: 3%;
+  display: flex;
 }
 
 .menutoplinks a {
@@ -32,7 +33,7 @@ body {
 }
 
 .menuleft {
-  width: 15%;
+  width: 20%;
   height: 800px;
   float: left;
   position: relative;
@@ -42,14 +43,15 @@ body {
 .maincontainer {
   float: left;
   position: relative;
-  width: 85%;
+  width: 80%;
   height: 800px;
   background-color: blue;
+  color: white;
 }
 
 .footer {
   background-color: yellow;
-  height: 100px;
+  height: 80px;
   width: 100%;
   float: left;
   position: relative;
