@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node server.js",
+    "build-css": "node-sass --include-path scss client/scss/main.scss client/css/main.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
   },
   "engines": {
     "node": "5.6.x",
@@ -26,7 +28,8 @@
   },
   "devDependencies": {
     "browser-sync": "^2.18.2",
-    "gulp": "^3.9.1"
+    "gulp": "^3.9.1",
+    "node-sass": "^3.13.0"
   },
   "repository": {
     "type": "git",
