@@ -9,7 +9,8 @@ body {
   height: 100px;
   margin: 0;
   margin-bottom: 10px;
-  box-shadow: 10px 1px  15px #333333; }
+  box-shadow: 10px 1px  15px #333333;
+  z-index: 10; }
 
 .brandicon {
   background-image: url("../../img/mean.png");
@@ -33,23 +34,12 @@ body {
     margin-right: 10%;
     padding-right: 10px; }
 
-.menuleft {
-  width: 15%;
-  height: 800px;
-  float: left;
-  position: fixed;
-  background-color: #fff;
-  margin-right: 10px;
-  margin-top: 125px;
-  margin-left: 10px;
-  box-shadow: 5px 5px 15px #333333; }
-
 .maincontainer {
   float: left;
-  position: fixed;
-  width: 80%;
+  position: relative;
+  width: 95%;
   height: 1000px;
-  margin-left: 18.5%;
+  margin-left: 2.5%;
   color: #333333;
   background-color: #f2f2f2;
   margin-top: 125px; }
