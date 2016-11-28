@@ -1,4 +1,4 @@
-var gulp = require('gulp');
+cdvar gulp = require('gulp');
 var browserSync = require('browser-sync');
 var reload = browserSync.reload;
 
