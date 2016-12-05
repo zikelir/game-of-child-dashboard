@@ -28,7 +28,12 @@
   },
   "devDependencies": {
     "browser-sync": "^2.18.2",
+    "express": "^4.14.0",
     "gulp": "^3.9.1",
+    "gulp-coffee": "^2.3.3",
+    "gulp-livereload": "^3.8.1",
+    "gulp-sass": "^2.3.2",
+    "gulp-watch": "^4.3.11",
     "node-sass": "^3.13.0"
   },
   "repository": {

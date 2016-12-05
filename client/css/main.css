@@ -2,6 +2,7 @@ body {
   margin: 0; }
 
 .menutop {
+  background-color: rgba(255, 56, 56, 0.8);
   color: #333333;
   width: 100%;
   float: left;
@@ -26,13 +27,25 @@ body {
 .menutoplinks {
   position: relative;
   float: right;
-  margin-top: 38px;
+  margin-top: 35px;
   margin-right: 3%;
   display: flex; }
   .menutoplinks a {
     color: #333333;
     margin-right: 10%;
-    padding-right: 10px; }
+    padding: 10px;
+    background-color: #fff;
+    text-decoration: none; }
+  .menutoplinks .mytopphoto {
+    background-image: url(../../img/eu.jpg);
+    height: auto;
+    width: auto;
+    background-size: cover;
+    cursor: pointer;
+    padding: 30px;
+    margin-top: -20px;
+    margin-right: 50px;
+    border-radius: 50px; }
 
 .maincontainer {
   float: left;
