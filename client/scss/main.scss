@@ -7,7 +7,7 @@ body {
 }
 
 .menutop {
-    background-color: #497791;
+    background-color: #133F69;
     color: #333333;
     width: 100%;
     // float: left;
@@ -19,18 +19,24 @@ body {
     // display: flex-box;
 }
 
-.brandicon {
-    background-image: url("../../img/mean.png");
-    position: relative;
-    float: left;
-    margin-top: 15px;
-    margin-left: 1%;
-    height: 60px;
-    width: 60px;
-    background-size: cover;
+.menu-sandwich {
+    font-size: 2em;
+    color: #fff;
+    margin-left: 10px;
     cursor: pointer;
 }
 
+// .brandicon {
+//     background-image: url("../../img/mean.png");
+//     position: relative;
+//     float: left;
+//     margin-top: 15px;
+//     margin-left: 1%;
+//     height: 60px;
+//     width: 60px;
+//     background-size: cover;
+//     cursor: pointer;
+// }
 // .menutoplinks {
 //     position: relative;
 //     float: right;
@@ -64,7 +70,7 @@ body {
 // }
 .side-menu {
     width: 20vw;
-    background-color: red;
+    background-color: #497791;
     height: 100vh;
     display: flex;
 }
