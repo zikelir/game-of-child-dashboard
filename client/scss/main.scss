@@ -69,8 +69,9 @@ body {
     width: 20vw;
     background-color: #497791;
     height: 100vh;
-    display: flex;
+    // display: flex;
     flex-wrap: wrap;
+    align-items: flex-start;
 }
 
 .side-menu-item {
