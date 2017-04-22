@@ -10,13 +10,9 @@ body {
     background-color: #133F69;
     color: #333333;
     width: 100%;
-    // float: left;
-    // position: fixed;
     height: 50px;
     margin: 0;
-    // box-shadow: 10px 1px 15px #333333;
     z-index: 10;
-    // display: flex-box;
 }
 
 .menu-sandwich {
@@ -24,6 +20,7 @@ body {
     color: #fff;
     margin-left: 10px;
     cursor: pointer;
+    width: 30px;
 }
 
 // .brandicon {
@@ -73,11 +70,24 @@ body {
     background-color: #497791;
     height: 100vh;
     display: flex;
+    flex-wrap: wrap;
+}
+
+.side-menu-item {
+    padding: 20px;
+    height: 20px;
+    width: 100%;
+    border-bottom: 1px solid #fff;
+    color: #fff;
+}
+
+.side-menu-item:hover {
+    color: #497791;
+    cursor: pointer;
+    background-color: #fff;
 }
 
 .maincontainer {
-    // float: left;
-    // position: relative;
     display: flex;
     flex-wrap: wrap;
     width: 78.73vw;

@@ -17,13 +17,27 @@ body {
   font-size: 2em;
   color: #fff;
   margin-left: 10px;
-  cursor: pointer; }
+  cursor: pointer;
+  width: 30px; }
 
 .side-menu {
   width: 20vw;
   background-color: #497791;
   height: 100vh;
-  display: flex; }
+  display: flex;
+  flex-wrap: wrap; }
+
+.side-menu-item {
+  padding: 20px;
+  height: 20px;
+  width: 100%;
+  border-bottom: 1px solid #fff;
+  color: #fff; }
+
+.side-menu-item:hover {
+  color: #497791;
+  cursor: pointer;
+  background-color: #fff; }
 
 .maincontainer {
   display: flex;
