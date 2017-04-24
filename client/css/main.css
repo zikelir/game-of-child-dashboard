@@ -45,13 +45,17 @@ body {
   cursor: pointer;
   background-color: #fff; }
 
-.maincontainer {
+.mainContainerRetracted {
   display: flex;
   flex-wrap: wrap;
   width: 78.73vw;
   height: 100vh;
   color: #333333;
-  background-color: #f2f2f2; }
+  background-color: #f2f2f2;
+  transition: 1s linear 0.5s; }
+
+.mainContainerExpanded {
+  width: 100vw; }
 
 .footer {
   background-color: yellow;
