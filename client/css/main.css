@@ -20,19 +20,25 @@ body {
   cursor: pointer;
   width: 30px; }
 
-.side-menu {
+.sideMenuShow {
   width: 20vw;
   background-color: #497791;
   height: 100vh;
   flex-wrap: wrap;
-  align-items: flex-start; }
+  align-items: flex-start;
+  transition: 1s linear 0.5s;
+  opacity: 1; }
+
+.sideMenuHidden {
+  opacity: 0; }
 
 .side-menu-item {
-  padding: 20px;
+  padding: 20px 0px 20px 0px;
   height: 20px;
   width: 100%;
   border-bottom: 1px solid #fff;
-  color: #fff; }
+  color: #fff;
+  text-align: center; }
 
 .side-menu-item:hover {
   color: #497791;

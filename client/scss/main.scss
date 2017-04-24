@@ -65,21 +65,29 @@ body {
 //         border-radius: 50px;
 //     }
 // }
-.side-menu {
+.sideMenuShow {
     width: 20vw;
     background-color: #497791;
     height: 100vh;
-    // display: flex;
     flex-wrap: wrap;
     align-items: flex-start;
+    transition: 1s linear 0.5s;
+    opacity: 1;
+    // display: initial;
+}
+
+.sideMenuHidden {
+    opacity: 0;
+    // display: none;
 }
 
 .side-menu-item {
-    padding: 20px;
+    padding: 20px 0px 20px 0px;
     height: 20px;
     width: 100%;
     border-bottom: 1px solid #fff;
     color: #fff;
+    text-align: center;
 }
 
 .side-menu-item:hover {

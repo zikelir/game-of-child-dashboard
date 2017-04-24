@@ -25,7 +25,7 @@
 
 <body ng-controller="mainCtrl">
     <div class="menutop">
-        <div class="menu-sandwich">&#9776;</div>
+        <div class="menu-sandwich" ng-click="changeSideMenuClass()">&#9776;</div>
         <!--div class="menutoplinks">
             <a href="">University View</a>
             <a href="">Habits</a>
@@ -34,7 +34,7 @@
             <a class="mytopphoto"></a>
         </div>-->
     </div>
-    <side-menu></side-menu>
+    <side-menu ng-class="sideMenuClass"></side-menu>
     <div class="maincontainer">
 
     </div>
