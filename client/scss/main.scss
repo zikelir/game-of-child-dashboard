@@ -78,6 +78,7 @@ body {
 
 .sideMenuHidden {
     opacity: 0;
+    display: none;
     // display: none;
 }
 
@@ -103,11 +104,21 @@ body {
     height: 100vh;
     color: #333333;
     background-color: #f2f2f2;
-    transition: 1s linear 0.5s;
+    // background-color: blue;
+    // transition: 1s linear 0.5s;
 }
 
 .mainContainerExpanded {
     width: 100vw;
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin-top: 0px;
+    height: 100vh;
+    color: #333333;
+    // background-color: #f2f2f2;
+    background-color: red;
+    // transition: 1s linear 0.5s
 }
 
 .footer {
