@@ -10,40 +10,44 @@
     <script src="dashboard/angular-route/angular-route.min.js"></script>
     <script src="dashboard/angular-material/angular-material.min.js"></script>
 
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.17/d3.min.js"></script>
-
-
+    <script src="https://www.gstatic.com/charts/loader.js"></script>
 
     <link rel="stylesheet" type="text/css" href="css/main.css" />
-    <link href="//1.www.s81c.com/common/v18/css/forms.css" rel="stylesheet">
-
 
     <script type="text/javascript" src="app/app.js"></script>
-    <title>MY DASHBOARD</title>
+    <title>Game of Child Dashboard</title>
 </head>
 
 <body ng-controller="mainCtrl">
-    <div class="menutop">
-        <div class="menu-sandwich" ng-click="changeSideMenuClass()">&#9776;</div>
-        <!--div class="menutoplinks">
-            <a href="">University View</a>
-            <a href="">Habits</a>
-            <a href="">Todos</a>
-            <a href="">Agenda</a>
-            <a class="mytopphoto"></a>
-        </div>-->
-    </div>
+    <header class="menutop"></header>
     <side-menu ng-class="sideMenuClass"></side-menu>
     <div ng-class="mainContainerExpanded">
-
+        <performance-graph></performance-graph>
+        <tasks style="margin-left:10%;"></tasks>
+        <difficulty style="margin-left:0%;width: 500px !important;"></difficulty>
     </div>
 </body>
+
 <script src="app/app.js"></script>
 <script src="app/controllers.js"></script>
-<script src="app/side-menu/side-menu.controller.js"></script>
-<script src="app/side-menu/side-menu.js"></script>
 
+<script src="app/header-bar/header-bar.controller.js"></script>
+<script src="app/header-bar/header-bar.js"></script>
+<script src="app/header-bar/header-bar.service.js"></script>
+
+
+<script src="app/graph-components/performance-graph/performance-graph.controller.js"></script>
+<script src="app/graph-components/performance-graph/performance-graph.js"></script>
+<script src="app/graph-components/performance-graph/performance-graph.service.js"></script>
+
+
+<script src="app/graph-components/tasks/tasks.controller.js"></script>
+<script src="app/graph-components/tasks/tasks.js"></script>
+<script src="app/graph-components/tasks/tasks.service.js"></script>
+
+<script src="app/graph-components/difficulty/difficulty.controller.js"></script>
+<script src="app/graph-components/difficulty/difficulty.js"></script>
+<script src="app/graph-components/difficulty/difficulty.service.js"></script>
 
 
 </html>

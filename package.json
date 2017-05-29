@@ -1,7 +1,7 @@
 {
-  "name": "routinedashboard",
+  "name": "gameofchild",
   "version": "1.0.0",
-  "description": "app for personal management",
+  "description": "app for child routine management",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -24,7 +24,9 @@
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.15.2",
-    "express": "^4.14.0"
+    "cors": "^2.8.3",
+    "express": "^4.14.0",
+    "gulp": "^3.9.1"
   },
   "devDependencies": {
     "browser-sync": "^2.18.2",
@@ -39,10 +41,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/zikelir/routineDashboard.git"
+    "url": ""
   },
   "bugs": {
-    "url": "https://github.com/zikelir/routineDashboard/issues"
+    "url": ""
   },
-  "homepage": "https://github.com/zikelir/routineDashboard#readme"
+  "homepage": ""
 }
